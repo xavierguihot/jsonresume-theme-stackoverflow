@@ -1,6 +1,8 @@
 
 # My resume
 
+My resume: [https://xavierguihot.github.io/jsonresume-theme-stackoverflow/](https://xavierguihot.github.io/jsonresume-theme-stackoverflow/)
+
 This project is a fork of [https://github.com/francescoes/jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow) by Francesco Esposito.
 
 His project is a resume template (inspired by stackoverflow website's theme) for json resumes whose format is provided at [https://github.com/jsonresume](https://github.com/jsonresume).
