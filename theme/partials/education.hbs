@@ -52,6 +52,7 @@
       </header>
 
       {{#location}}
+      <br>
       <span class="location">
         <span class="fa fa-map-marker"></span>
         {{#if city}}
@@ -65,8 +66,14 @@
         {{/if}}
       </span>
       {{/location}}
+      {{#if website}}
+      <span class="website">
+        <a target="_blank" href="{{website}}">{{website}}</a>
+      </span>
+      {{/if}}
 
       {{#if courses.length}}
+      <br>
       <ul class="courses">
         {{#each courses}}
         <li>{{.}}</li>
