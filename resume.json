@@ -1,0 +1,200 @@
+{
+  "basics": {
+    "name": "Xavier Guihot",
+    "label": "Data Engineer",
+    "picture": "",
+    "email": "x.guihot@gmail.com",
+    "phone": "+33 6 30 13 60 62",
+    "website": "https://xavierguihot.github.io",
+    "summary": "Big Data Engineer with 3+ years of experience in interpreting and analyzing data for driving business solutions. I am highly proficient at building complex and efficient Scala/Spark data pipelines. While mainly focusing on data mining, I also enjoy displaying data in a meaningfull way.",
+    "location": {
+      "address": "1544 avenue Jules Grec",
+      "postalCode": "06600",
+      "city": "Antibes",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "birth": {
+      "date": "1990"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "XavierGuihot",
+        "url": "https://github.com/XavierGuihot"
+      },
+      {
+        "network": "linkedin",
+        "username": "XavierGuihot",
+        "url": "https://www.linkedin.com/in/xavier-guihot-2327b014b/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Amadeus IT Group",
+      "position": "Software developer - Data engineer",
+      "website": "http://www.amadeus.com",
+      "location": {
+        "city": "Sophia Antipolis",
+        "countryCode": "FR"
+      },
+      "startDate": "2014-10-06",
+      "endDate": "",
+      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.<br>I am part of the data mining team in charge of the flight search engine analytics.",
+      "highlights": [
+        "Development of many Spark pipelines over billions of records on 30TB-RAM hadoop clusters",
+        "Full stack development of Travel Intelligence visualisation webapps",
+        "Customer choice modeling in order to improve and adapt which flight recommendations are returned, resulting in verified conversion improvements (up to 10%)"
+      ]
+    },
+    {
+      "company": "Airbus Group",
+      "position": "Final year internship",
+      "location": {
+        "city": "Toulouse Blagnac",
+        "countryCode": "FR"
+      },
+      "website": "http://www.airbus.com",
+      "startDate": "2014-04-15",
+      "endDate": "2014-10-03",
+      "summary": "Airbus is a multinational corporation that designs, manufactures, and sells civil and military aeronautical products worldwide.<br>During my final year internship, as part of the simulation department, I've had the opportunity to develop a workflow editor tool.",
+      "highlights": [
+        "First full-stack development experience, getting through each step of the application development cycle"
+      ]
+    },
+    {
+      "company": "Karlstad University",
+      "position": "Internship",
+      "location": {
+        "city": "Karlstad",
+        "countryCode": "SE"
+      },
+      "website": "https://www.kau.se/en",
+      "startDate": "2013-07-03",
+      "endDate": "2013-08-30",
+      "summary": "TCP simulations with NS2 (network simulator) of large-scale experimental measurements on different cellular networks using different technologies (3G, 4G, TCP variants, ...)."
+    }
+  ],
+  "education": [
+    {
+      "institution": "ISAE SUPAERO",
+      "studyType": "Engineering School",
+      "startDate": "2011-09-01",
+      "endDate": "2014-07-01",
+      "location": {
+        "city": "Toulouse",
+        "countryCode": "FR"
+      },
+      "website": "https://www.isae-supaero.fr/en",
+      "courses": [
+        "Critical Computer Systems",
+        "Intelligent Systems",
+        "Aeronautics",
+        "Mechanical Engineering",
+        "Avionics",
+        "Fluid Mechanics"
+      ],
+      "summary": "ISAE: Graduate Institute of Space and Aeronautical Engineering.<br>French equivalent of a Master's Degree in Engineering."
+    },
+    {
+      "institution": "Paris South 11",
+      "studyType": "University",
+      "startDate": "2009",
+      "endDate": "2011",
+      "location": {
+        "city": "Orsay",
+        "countryCode": "FR"
+      },
+      "website": "http://www.u-psud.fr/en",
+      "courses": [
+        "Maths",
+        "Physics",
+        "Computer science"
+      ],
+      "summary": "Two-year university degree in mathematics and physics (DEUG).<br>Ranked 2 out of 307 in physics and 5 out of 307 in mathematics at the CCP DEUG entrance exam for engineering schools."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Mining",
+      "level": "Master",
+      "keywords": [
+        "Spark",
+        "Scala",
+        "ETL",
+        "Hadoop"
+      ]
+    },
+    {
+      "name": "Data Visualisation",
+      "level": "Advanced",
+      "keywords": [
+        "D3",
+        "Python"
+      ]
+    },
+    {
+      "name": "Full Stack Developer",
+      "level": "Advanced",
+      "keywords": [
+        "MongoDB",
+        "Django",
+        "Javascript",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Advanced",
+      "keywords": [
+        "Clustering",
+        "Hyperparam tuning",
+        "BI",
+        "AB testing",
+        "sampling"
+      ]
+    },
+    {
+      "name": "Travel Industry",
+      "level": "Advanced",
+      "keywords": [
+        "Flight Search Engine"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Swimming",
+        "Cycling",
+        "Sailing",
+        "Skiing"
+      ]
+    },
+    {
+      "name": "Coding",
+      "keywords": [
+        "Hackerrank",
+        "Personal projects"
+      ]
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+        "Youtube"
+      ]
+    }
+  ]
+}
