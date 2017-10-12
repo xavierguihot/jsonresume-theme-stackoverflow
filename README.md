@@ -1,91 +1,21 @@
-# Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
 
-**Printable version with custom CSS**
+# My resume
 
-[DEMO](https://themes.jsonresume.org/stackoverflow)
+This project is a fork of [https://github.com/francescoes/jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow) by Francesco Esposito.
 
-## Getting started
+His project is a resume template (inspired by stackoverflow website's theme) for json resumes whose format is provided at [https://github.com/jsonresume](https://github.com/jsonresume).
 
-### Install the command line
+So my work here has just been to fork Francesco Esposito's resume template, to create the resume.json file which contains data related to my resume, to find out how to properly generate the static index.html of the resume and for hosing, to set it as the github page of this repository. I've also slightly modified a few parts of the resume template to my preferences.
 
-Create your resume in json on [jsonresume](https://jsonresume.org)
+# index.html update
 
-The official [resume-cli](https://github.com/jsonresume/resume-cli) to run the development server.
-
-Go ahead and install it:
-
-```
-sudo npm install -g resume-cli
-```
-### Install and serve theme
-
-Clone the repository
-
-```
-npm install jsonresume-theme-stackoverflow
-```
-
-then change directory: 
-
-`cd node_modules/jsonresume-theme-stackoverflow/`
-
-And simply run:
-
-```
-resume serve
-```
-
-You should now see this message:
-
-```
-Preview: http://localhost:4000
-Press ctrl-c to stop
-```
-
-To build your own resume, create a 'resume.json' file in the current folder and follow the [json resume schema](https://jsonresume.org/schema/)
-
-### Social Profiles Icons
-
-**Profiles supported with brand colors:**
-
-github, stack overflow, linkedin, dribbble, twitter, facebook, pinterest, instagram, soundcloud, wordpress, youtube, flickr, google plus, tumblr, foursquare.
-
-To have a social icon close the social link profile (or username) it is enough to set a `network` the name of the Social Network (es: 'Stack Overflow').
-
-#### Support to extra fields
-
-With stackoverflow theme it is possible to add:
-
-- `keywords` to each 'work', 'publication' and 'volunteer' item
-- `summary` to each 'interests' and 'education' item
-- `location` to each 'work', 'education' and 'volunteer' item
-- `birth` to 'basics'
-
-example of the extra `location` object: 
-
-```
-"location": {
-  "city": "Zürich",
-  "countryCode": "CH",
-  "region": "Switzerland"
-} 
-```
-example of the extra `birth` object:
-
-```
-"birth": {
-  "place": "New York",
-  "state": "USA",
-  "date": "1988"
-}
-```
-
-## Contribution
-
-Fork the project, add your feature (or fix your bug) and open a pull request OR
-
-[Open an issue](https://github.com/francescoes/jsonresume-theme-stackoverflow/issues/new) if you find find or if you would like to have extra fields or changes 
-
-## License
-
-Available under the [MIT license](http://opensource.org/licenses/mit-license.php).
+	# Create whatever virgin folder
+	npm install git+https://git@github.com/XavierGuihot/jsonresume-theme-stackoverflow
+	cd node_modules
+	rm -rf jsonresume-theme-stackoverflow-modified
+	git clone https://github.com/XavierGuihot/jsonresume-theme-stackoverflow.git
+	cd jsonresume-theme-stackoverflow
+	resume serve
+	* this has the effect to create the new static index.html
+	cp public/index.html .
+	* Then commit and push
