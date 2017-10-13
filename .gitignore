@@ -2,6 +2,6 @@ bower_components/
 node_modules/
 npm-debug.log
 resume.html
-resume.pdf
 .DS_Store
 public
+resume-paper.html

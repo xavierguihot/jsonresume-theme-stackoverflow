@@ -21,3 +21,12 @@ So my work here has just been to fork Francesco Esposito's resume template, to c
 	* this has the effect to create the new static index.html
 	cp public/index.html .
 	* Then commit and push
+
+# Export to crappy PDF
+
+The PDF translation isn't perfect:
+
+	sudo apt-get install wkhtmltopdf
+	resume export resume-paper.html -t stackoverflow
+	wkhtmltopdf resume-paper.html resume.pdf
+	xdg-open resume.pdf
