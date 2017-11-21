@@ -45,7 +45,8 @@
       "highlights": [
         "Development of many Spark pipelines over billions of records on 30TB-RAM hadoop clusters",
         "Full stack development of Travel Intelligence visualisation webapps",
-        "Customer choice modeling in order to improve and adapt which flight recommendations are returned, resulting in verified conversion improvements (up to 10%)"
+        "Customer choice modeling in order to improve and adapt which flight recommendations are returned, resulting in verified conversion improvements (up to 10%)",
+        "Main role into transitioning workflows and pipelines into Amadeus new Hadoop production cluster (architecture, testing, resiliency, monitoring, git loading container principal reviewer)"
       ]
     },
     {
