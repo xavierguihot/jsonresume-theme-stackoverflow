@@ -1,7 +1,7 @@
 
 # My resume
 
-My resume: [https://xavierguihot.github.io/jsonresume-theme-stackoverflow/](https://xavierguihot.github.io/jsonresume-theme-stackoverflow/)
+My resume: [http://xavierguihot.com/jsonresume-theme-stackoverflow/](http://xavierguihot.com/jsonresume-theme-stackoverflow/)
 
 This project is a fork of [https://github.com/francescoes/jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow) by Francesco Esposito.
 
@@ -12,10 +12,10 @@ So my work here has just been to fork Francesco Esposito's resume template, to c
 # index.html update
 
 	# Create whatever virgin folder
-	npm install git+https://git@github.com/XavierGuihot/jsonresume-theme-stackoverflow
+	npm install git+https://git@github.com/xavierguihot/jsonresume-theme-stackoverflow
 	cd node_modules
 	rm -rf jsonresume-theme-stackoverflow-modified
-	git clone https://github.com/XavierGuihot/jsonresume-theme-stackoverflow.git
+	git clone https://github.com/xavierguihot/jsonresume-theme-stackoverflow.git
 	cd jsonresume-theme-stackoverflow
 	resume serve
 	* this has the effect to create the new static index.html

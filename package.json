@@ -5,7 +5,7 @@
   "author": "Francesco Esposito <http://fran.cesco.io>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/XavierGuihot/jsonresume-theme-stackoverflow"
+    "url": "https://github.com/xavierguihot/jsonresume-theme-stackoverflow"
   },
   "license": "MIT",
   "main": "index.js",
