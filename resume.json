@@ -6,12 +6,12 @@
     "email": "x.guihot@gmail.com",
     "phone": "+33 # ## ## ## ##",
     "website": "http://xavierguihot.com",
-    "summary": "Big Data Engineer with 3+ years of experience in interpreting and analyzing data for driving business solutions. I am highly proficient at building complex and efficient Scala/Spark data pipelines. While mainly focusing on data mining, I also enjoy displaying data in a meaningful way.",
+    "summary": "Big data engineer with 3+ years of experience and a background in aeronautics. I am highly proficient at building complex and efficient Scala/Spark data mining pipelines and I love displaying data in a meaningful way specially with d3.js.",
     "location": {
-      "address": "1544 avenue Jules Grec",
-      "postalCode": "06600",
-      "city": "Antibes",
-      "countryCode": "FR",
+      "address": "Penywern Road",
+      "postalCode": "SW5 9SX",
+      "city": "London",
+      "countryCode": "UK",
       "region": ""
     },
     "birth": {
@@ -31,6 +31,22 @@
     ]
   },
   "work": [
+  	{
+      "company": "Adthena",
+      "position": "Data engineer",
+      "website": "https://www.adthena.com",
+      "location": {
+        "city": "London",
+        "countryCode": "UK"
+      },
+      "startDate": "2018-04-09",
+      "endDate": "",
+      "summary": "Adthena is a fast growing start-up and the market leader in Competitive Intelligence for Search. By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic search landscape and improve campaign performance.<br>As a data engineer, my role consists in leveraging the massive amount of collected data and serving it to the client facing web application.",
+      "highlights": [
+        "Java backend development: building and maintaining application's endpoints serving SQL data from Amazon Redhsift instances",
+        "Development of Scala/Java Spark pipelines on AWS clusters (Amazon Web Services)"
+      ]
+    },
     {
       "company": "Amadeus IT Group",
       "position": "Software developer - Data engineer",
@@ -40,10 +56,10 @@
         "countryCode": "FR"
       },
       "startDate": "2014-10-06",
-      "endDate": "",
+      "endDate": "2018-04-06",
       "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.<br>I am part of the data mining team in charge of the flight search engine analytics.",
       "highlights": [
-        "Development of many Spark pipelines over billions of records on 30TB-RAM hadoop clusters",
+        "Development of many Scala/Spark pipelines over billions of records on an in-house 30TB-RAM hadoop cluster",
         "Full stack development of Travel Intelligence visualisation webapps",
         "Customer choice modeling in order to improve and adapt which flight recommendations are returned, resulting in verified conversion improvements (up to 10%)",
         "Main role into transitioning workflows and pipelines into Amadeus new Hadoop production cluster (architecture, testing, resiliency, monitoring, git loading container principal reviewer)"
@@ -140,7 +156,8 @@
       "level": "Advanced",
       "keywords": [
         "MongoDB",
-        "Django",
+        "Java",
+        "SQL",
         "Javascript",
         "TDD"
       ]
