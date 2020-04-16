@@ -5,3 +5,5 @@ resume.html
 .DS_Store
 public
 resume-paper.html
+.idea/
+jsonresume-theme-stackoverflow.iml

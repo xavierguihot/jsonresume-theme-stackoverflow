@@ -11,22 +11,23 @@ So my work here has just been to fork Francesco Esposito's resume template, to c
 
 # index.html update
 
-	# Create whatever virgin folder
-	npm install git+https://git@github.com/xavierguihot/jsonresume-theme-stackoverflow
-	cd node_modules
-	rm -rf jsonresume-theme-stackoverflow-modified
-	git clone https://github.com/xavierguihot/jsonresume-theme-stackoverflow.git
-	cd jsonresume-theme-stackoverflow
-	resume serve
-	* this has the effect to create the new static index.html
-	cp public/index.html .
-	* Then commit and push
+    # Create whatever virgin folder
+    npm install git+https://git@github.com/xavierguihot/jsonresume-theme-stackoverflow
+    cd node_modules
+    npm install -g resume-cli # or sudo npm install puppeteer --unsafe-perm=true --allow-root` and then `sudo npm install resume-cli --unsafe-perm=true --allow-root`
+    rm -rf jsonresume-theme-stackoverflow-modified
+    git clone https://github.com/xavierguihot/jsonresume-theme-stackoverflow.git
+    cd jsonresume-theme-stackoverflow
+    resume serve # or node_modules/resume-cli/index.js serve
+    * this has the effect to create the new static index.html
+    cp public/index.html .
+    * Then commit and push
 
 # Export to crappy PDF
 
 The PDF translation isn't perfect:
 
-	sudo apt-get install wkhtmltopdf
-	resume export resume-paper.html -t stackoverflow
-	wkhtmltopdf resume-paper.html resume.pdf
-	xdg-open resume.pdf
+    sudo apt-get install wkhtmltopdf
+    resume export resume-paper.html -t stackoverflow
+    wkhtmltopdf resume-paper.html resume.pdf
+    xdg-open resume.pdf
