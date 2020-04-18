@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Xavier Guihot",
-    "label": "Data Engineer",
+    "label": "Scala Data Engineer",
     "picture": "",
     "email": "x.guihot@gmail.com",
     "phone": "+33 # ## ## ## ##",
     "website": "http://xavierguihot.com",
-    "summary": "Big data engineer with a background in aeronautics focusing on Scala, Spark and data visualization.",
+    "summary": "Scala data engineer with an aerospace background, mainly focusing on MongoDB, Akka, Spark, Python and data visualisation.",
     "location": {
-      "address": "Penywern Road",
-      "postalCode": "SW5 9SX",
+      "address": "",
+      "postalCode": "",
       "city": "London",
       "countryCode": "UK",
       "region": ""
@@ -25,57 +25,60 @@
       },
       {
         "network": "linkedin",
-        "username": "XavierGuihot",
+        "username": "xavierguihot",
         "url": "https://www.linkedin.com/in/xavierguihot/"
       }
     ]
   },
   "work": [
-  	{
-      "company": "Adthena",
-      "position": "Data engineer",
-      "website": "https://www.adthena.com",
-      "location": {
-        "city": "London",
-        "countryCode": "UK"
-      },
-      "startDate": "2018-04-09",
+    {
+      "company": "IMG ARENA",
+      "position": "Scala Backend Developer",
+      "website": "imgarena.com",
+      "location": { "city": "London", "countryCode": "UK" },
+      "startDate": "2019-02-01",
       "endDate": "",
-      "summary": "Adthena is a fast growing start-up and the market leader in Competitive Intelligence for Search. By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic search landscape and improve campaign performance.<br>As a data engineer, my role consists in leveraging the massive amount of collected data and serving it to the client facing web application.",
+      "summary": "Live streaming of sport data feeds for media and sport betting companies. Initially part of the Dice technology group for 9 months, the whole team has then moved within the IMG ARENA group (both groups being part of IMG)",
       "highlights": [
-        "Java backend development: building and maintaining application's endpoints serving SQL data from Amazon Redhsift instances",
-        "Development of Scala/Java Spark pipelines on AWS clusters (Amazon Web Services)"
+        "Low-latency and highly reliable sport data collection and broadcasting via Scala/Akka-stream micro services"
       ]
     },
     {
-      "company": "Amadeus IT Group",
+      "company": "ADTHENA",
+      "position": "Data engineer",
+      "website": "adthena.com",
+      "location": { "city": "London", "countryCode": "UK" },
+      "startDate": "2018-04-09",
+      "endDate": "2019-01-18",
+      "summary": "Adthena is a fast growing start-up and the market leader in Competitive Intelligence for Search. By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic search landscape and improve campaign performance.",
+      "highlights": [
+        "Development of Scala/Java Spark pipelines on AWS clusters",
+        "Java endpoints on top of SQL Amazon Redshift instances"
+      ]
+    },
+    {
+      "company": "AMADEUS",
       "position": "Software developer - Data engineer",
-      "website": "http://www.amadeus.com",
-      "location": {
-        "city": "Sophia Antipolis",
-        "countryCode": "FR"
-      },
+      "website": "amadeus.com",
+      "location": { "city": "Sophia Antipolis", "countryCode": "FR" },
       "startDate": "2014-10-06",
       "endDate": "2018-04-06",
-      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.<br>I am part of the data mining team in charge of the flight search engine analytics.",
+      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.<br>Part of a data mining team in charge of flight search engine analytics:",
       "highlights": [
-        "Development of many Scala/Spark pipelines over billions of records on an in-house 30TB-RAM hadoop cluster",
-        "Full stack development of Travel Intelligence visualisation webapps",
-        "Customer choice modeling in order to improve and adapt which flight recommendations are returned, resulting in verified conversion improvements (up to 10%)",
-        "Main role into transitioning workflows and pipelines into Amadeus new Hadoop production cluster (architecture, testing, resiliency, monitoring, git loading container principal reviewer)"
+        "Scala Spark pipelines over billions of records on a 30TB-RAM Hadoop cluster",
+        "Travel Intelligence visualisation webapps",
+        "Customer choice modelling in order to improve and adapt displayed flight recommendations, resulting in verified conversion improvements",
+        "Transitioning workflows and pipelines for Amadeus' new Hadoop production cluster"
       ]
     },
     {
-      "company": "Airbus Group",
+      "company": "AIRBUS",
       "position": "Final year internship",
-      "location": {
-        "city": "Toulouse Blagnac",
-        "countryCode": "FR"
-      },
-      "website": "http://www.airbus.com",
+      "location": { "city": "Toulouse Blagnac", "countryCode": "FR" },
+      "website": "airbus.com",
       "startDate": "2014-04-15",
       "endDate": "2014-10-03",
-      "summary": "Airbus is a multinational corporation that designs, manufactures, and sells civil and military aeronautical products worldwide.<br>During my final year internship, as part of the simulation department, I've had the opportunity to develop a workflow editor tool.",
+      "summary": "Airbus is a multinational corporation that designs, manufactures, and sells civil and military aeronautical products worldwide.<br>During my final year internship, within the simulation department, I've had the opportunity to develop a workflow editor.",
       "highlights": [
         "First full-stack development experience, getting through each step of the application development cycle"
       ]
@@ -83,11 +86,8 @@
     {
       "company": "Karlstad University",
       "position": "Internship",
-      "location": {
-        "city": "Karlstad",
-        "countryCode": "SE"
-      },
-      "website": "https://www.kau.se/en",
+      "location": { "city": "Karlstad", "countryCode": "SE" },
+      "website": "kau.se/en",
       "startDate": "2013-07-03",
       "endDate": "2013-08-30",
       "summary": "TCP simulations with NS2 (network simulator) of large-scale experimental measurements on different cellular networks using different technologies (3G, 4G, TCP variants, ...)."
@@ -99,11 +99,8 @@
       "studyType": "Engineering School",
       "startDate": "2011-09-01",
       "endDate": "2014-07-01",
-      "location": {
-        "city": "Toulouse",
-        "countryCode": "FR"
-      },
-      "website": "https://www.isae-supaero.fr/en",
+      "location": { "city": "Toulouse", "countryCode": "FR" },
+      "website": "isae-supaero.fr/en",
       "courses": [
         "Critical Computer Systems",
         "Intelligent Systems",
@@ -115,15 +112,12 @@
       "summary": "ISAE: Graduate Institute of Space and Aeronautical Engineering.<br>French equivalent of a Master's Degree in Engineering."
     },
     {
-      "institution": "Paris South 11",
+      "institution": "Paris Sud 11",
       "studyType": "University",
       "startDate": "2009",
       "endDate": "2011",
-      "location": {
-        "city": "Orsay",
-        "countryCode": "FR"
-      },
-      "website": "http://www.u-psud.fr/en",
+      "location": { "city": "Orsay", "countryCode": "FR" },
+      "website": "universite-paris-saclay.fr/en",
       "courses": [
         "Maths",
         "Physics",
@@ -134,21 +128,13 @@
   ],
   "skills": [
     {
-      "name": "Data Mining",
+      "name": "Data Engineering",
       "level": "Master",
       "keywords": [
-        "Spark",
         "Scala",
-        "ETL",
-        "Hadoop"
-      ]
-    },
-    {
-      "name": "Data Visualisation",
-      "level": "Advanced",
-      "keywords": [
-        "D3",
-        "Python"
+        "Spark",
+        "Hadoop",
+        "Akka-stream"
       ]
     },
     {
@@ -156,28 +142,16 @@
       "level": "Advanced",
       "keywords": [
         "MongoDB",
-        "Java",
-        "SQL",
-        "Javascript",
-        "TDD"
+        "Python",
+        "Postgresql",
+        "Javascript"
       ]
     },
     {
-      "name": "Data Science",
+      "name": "Data Visualisation",
       "level": "Advanced",
       "keywords": [
-        "Clustering",
-        "Hyperparam tuning",
-        "BI",
-        "AB testing",
-        "sampling"
-      ]
-    },
-    {
-      "name": "Travel Industry",
-      "level": "Advanced",
-      "keywords": [
-        "Flight Search Engine"
+        "d3.js"
       ]
     }
   ],
@@ -198,21 +172,16 @@
         "Swimming",
         "Cycling",
         "Sailing",
-        "Skiing"
+        "Snowboarding"
       ]
     },
     {
       "name": "Coding",
-      "keywords": [
-        "Hackerrank",
-        "Personal projects"
-      ]
+      "keywords": ["Codewars", "StackOverflow"]
     },
     {
-      "name": "Travel",
-      "keywords": [
-        "Youtube"
-      ]
+      "name": "Miscellaneous",
+      "keywords": ["Travel", "Aerospace"]
     }
   ]
 }
