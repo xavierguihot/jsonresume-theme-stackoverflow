@@ -6,12 +6,12 @@
     "email": "x.guihot@gmail.com",
     "phone": "+33 # ## ## ## ##",
     "website": "http://xavierguihot.com",
-    "summary": "Scala data engineer with an aerospace background, mainly focusing on MongoDB, Akka, Spark, Python and data visualisation.",
+    "summary": "I love working on complex algorithmic oriented and data related projects specially when the tech stack includes Scala, Mongo, Akka, Spark and d3.js.<br>I'm looking for new opportunities that’d combine my two passions: software engineering and the space industry.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "London",
-      "countryCode": "UK",
+      "city": "Paris",
+      "countryCode": "FR",
       "region": ""
     },
     "birth": {
@@ -27,20 +27,38 @@
         "network": "linkedin",
         "username": "xavierguihot",
         "url": "https://www.linkedin.com/in/xavierguihot/"
+      },
+      {
+        "network": "stack-overflow",
+        "username": "Xavier Guihot",
+        "url": "https://stackoverflow.com/users/9297144/xavier-guihot?tab=profile"
       }
     ]
   },
   "work": [
+    {
+      "company": "MINNA Technologies",
+      "position": "Scala Data Engineer",
+      "website": "minnatechnologies.com",
+      "location": { "city": "Göteborg", "countryCode": "SE" },
+      "startDate": "2020-10-01",
+      "endDate": "",
+      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).<br>I'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:",
+      "highlights": [
+        "Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).",
+        "Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data."
+      ]
+    },
     {
       "company": "IMG ARENA",
       "position": "Scala Backend Developer",
       "website": "imgarena.com",
       "location": { "city": "London", "countryCode": "UK" },
       "startDate": "2019-02-01",
-      "endDate": "",
-      "summary": "Live streaming of sport data feeds for media and sport betting companies. Initially part of the Dice technology group for 9 months, the whole team has then moved within the IMG ARENA group (both groups being part of IMG)",
+      "endDate": "2020-10-01",
+      "summary": "Live streaming of sport data feeds for media and sport betting companies.",
       "highlights": [
-        "Low-latency and highly reliable sport data collection and broadcasting via Scala/Akka-stream micro services"
+        "Low-latency and highly reliable sport data collection and broadcasting via Scala/Akka micro services."
       ]
     },
     {
@@ -50,9 +68,9 @@
       "location": { "city": "London", "countryCode": "UK" },
       "startDate": "2018-04-09",
       "endDate": "2019-01-18",
-      "summary": "Adthena is a fast growing start-up and the market leader in Competitive Intelligence for Search. By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic search landscape and improve campaign performance.",
+      "summary": "By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.<br>My role consists in leveraging the massive amount of collected data and serving it to the client facing web application:",
       "highlights": [
-        "Development of Scala/Java Spark pipelines on AWS clusters",
+        "Development of Scala/Java Spark pipelines",
         "Java endpoints on top of SQL Amazon Redshift instances"
       ]
     },
@@ -78,10 +96,7 @@
       "website": "airbus.com",
       "startDate": "2014-04-15",
       "endDate": "2014-10-03",
-      "summary": "Airbus is a multinational corporation that designs, manufactures, and sells civil and military aeronautical products worldwide.<br>During my final year internship, within the simulation department, I've had the opportunity to develop a workflow editor.",
-      "highlights": [
-        "First full-stack development experience, getting through each step of the application development cycle"
-      ]
+      "summary": "Part of a team from the simulation department, my project consists in developing a desktop app allowing users to edit the representation of process workflows."
     },
     {
       "company": "Karlstad University",
@@ -132,13 +147,13 @@
       "level": "Master",
       "keywords": [
         "Scala",
+        "Akka-stream",
         "Spark",
-        "Hadoop",
-        "Akka-stream"
+        "Hadoop"
       ]
     },
     {
-      "name": "Full Stack Developer",
+      "name": "Misc.",
       "level": "Advanced",
       "keywords": [
         "MongoDB",
