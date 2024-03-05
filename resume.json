@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Xavier Guihot",
-    "label": "Scala Data Engineer",
+    "label": "Scala Data Engineer (Remote)",
     "picture": "",
     "email": "x.guihot@gmail.com",
     "phone": "+33 # ## ## ## ##",
-    "website": "http://xavierguihot.com",
-    "summary": "I love working on complex algorithmic oriented and data related projects specially when the tech stack includes Scala, Mongo, Akka, Spark and d3.js.<br>I'm looking for new opportunities that’d combine my two passions: software engineering and the space industry.",
+    "website": "https://xavierguihot.com",
+    "summary": "I love working on complex algorithmic oriented and data related projects specially when the tech stack includes Scala, Mongo, Akka, Spark and d3.js.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,6 +29,11 @@
         "url": "https://www.linkedin.com/in/xavierguihot/"
       },
       {
+        "network": "linktree",
+        "username": "xavierguihot",
+        "url": "https://linktr.ee/xavierguihot"
+      },
+      {
         "network": "stack-overflow",
         "username": "Xavier Guihot",
         "url": "https://stackoverflow.com/users/9297144/xavier-guihot?tab=profile"
@@ -37,13 +42,40 @@
   },
   "work": [
     {
+      "company": "Hiking/Travel",
+      "position": "Gap Year",
+      "website": "https://vanityhikes.com",
+      "location": { "city": "Around the world" },
+      "startDate": "2024-03-09",
+      "endDate": "",
+      "summary": "Hiking in Scotland, Madeira, the Lofotens, Iceland, the Pyrenees, Jordan and Nepal."
+    },
+    {
+      "company": "BLOOM",
+      "position": "Lead Data Engineer (Remote)",
+      "website": "https://bloomsocialanalytics.com/en",
+      "location": { "city": "Paris", "countryCode": "FR" },
+      "startDate": "2021-10-15",
+      "endDate": "2024-03-08",
+      "summary": "Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.\n\nBloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.\n\nMy teck stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.\n\nI'm in charge of the engineering on the data processing side, which consists in:",
+      "highlights": [
+        "Tokenizing and classifying social media content",
+        "Propagating classifications amongst social media referral chains",
+        "Producing all sorts of metrics",
+        "Creating graphs of terms and graphs of social media actors",
+        "Detecting inauthentic behaviours",
+        "Extracting locations from social media content",
+        "Building data visualisations"
+      ]
+    },
+    {
       "company": "MINNA Technologies",
       "position": "Scala Data Engineer",
-      "website": "minnatechnologies.com",
+      "website": "https://minnatechnologies.com",
       "location": { "city": "Göteborg", "countryCode": "SE" },
       "startDate": "2020-10-01",
-      "endDate": "",
-      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).<br>I'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:",
+      "endDate": "2021-08-25",
+      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).\n\nMy teck stack includes Scala, Akka, Mongo and d3.js\n\nI'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:",
       "highlights": [
         "Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).",
         "Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data."
@@ -52,7 +84,7 @@
     {
       "company": "IMG ARENA",
       "position": "Scala Backend Developer",
-      "website": "imgarena.com",
+      "website": "https://imgarena.com",
       "location": { "city": "London", "countryCode": "UK" },
       "startDate": "2019-02-01",
       "endDate": "2020-10-01",
@@ -64,11 +96,11 @@
     {
       "company": "ADTHENA",
       "position": "Data engineer",
-      "website": "adthena.com",
+      "website": "https://adthena.com",
       "location": { "city": "London", "countryCode": "UK" },
       "startDate": "2018-04-09",
       "endDate": "2019-01-18",
-      "summary": "By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.<br>My role consists in leveraging the massive amount of collected data and serving it to the client facing web application:",
+      "summary": "By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.\n\nMy role consists in leveraging the massive amount of collected data and serving it to the client facing web application:",
       "highlights": [
         "Development of Scala/Java Spark pipelines",
         "Java endpoints on top of SQL Amazon Redshift instances"
@@ -77,11 +109,11 @@
     {
       "company": "AMADEUS",
       "position": "Software developer - Data engineer",
-      "website": "amadeus.com",
+      "website": "https://amadeus.com",
       "location": { "city": "Sophia Antipolis", "countryCode": "FR" },
       "startDate": "2014-10-06",
       "endDate": "2018-04-06",
-      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.<br>Part of a data mining team in charge of flight search engine analytics:",
+      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.\n\nPart of a data mining team in charge of flight search engine analytics:",
       "highlights": [
         "Scala Spark pipelines over billions of records on a 30TB-RAM Hadoop cluster",
         "Travel Intelligence visualisation webapps",
@@ -93,7 +125,7 @@
       "company": "AIRBUS",
       "position": "Final year internship",
       "location": { "city": "Toulouse Blagnac", "countryCode": "FR" },
-      "website": "airbus.com",
+      "website": "https://airbus.com",
       "startDate": "2014-04-15",
       "endDate": "2014-10-03",
       "summary": "Part of a team from the simulation department, my project consists in developing a desktop app allowing users to edit the representation of process workflows."
@@ -102,7 +134,7 @@
       "company": "Karlstad University",
       "position": "Internship",
       "location": { "city": "Karlstad", "countryCode": "SE" },
-      "website": "kau.se/en",
+      "website": "https://kau.se/en",
       "startDate": "2013-07-03",
       "endDate": "2013-08-30",
       "summary": "TCP simulations with NS2 (network simulator) of large-scale experimental measurements on different cellular networks using different technologies (3G, 4G, TCP variants, ...)."
@@ -115,7 +147,7 @@
       "startDate": "2011-09-01",
       "endDate": "2014-07-01",
       "location": { "city": "Toulouse", "countryCode": "FR" },
-      "website": "isae-supaero.fr/en",
+      "website": "https://isae-supaero.fr/en",
       "courses": [
         "Critical Computer Systems",
         "Intelligent Systems",
@@ -132,7 +164,7 @@
       "startDate": "2009",
       "endDate": "2011",
       "location": { "city": "Orsay", "countryCode": "FR" },
-      "website": "universite-paris-saclay.fr/en",
+      "website": "https://universite-paris-saclay.fr/en",
       "courses": [
         "Maths",
         "Physics",
@@ -141,15 +173,24 @@
       "summary": "Two-year university degree in mathematics and physics (DEUG).<br>Ranked 2 out of 307 in physics and 5 out of 307 in mathematics at the CCP DEUG entrance exam for engineering schools."
     }
   ],
+  "projects": [
+    {
+      "name": "VanityHikes",
+      "startDate": "2022-10-01",
+      "endDate": "",
+      "summary": "A dataviz side project aimed at displaying my hikes on open street maps.",
+      "url": "https://vanityhikes.com"
+    }
+  ],
   "skills": [
     {
       "name": "Data Engineering",
       "level": "Master",
       "keywords": [
         "Scala",
-        "Akka-stream",
         "Spark",
-        "Hadoop"
+        "Hadoop",
+        "Akka-stream"
       ]
     },
     {
@@ -159,7 +200,7 @@
         "MongoDB",
         "Python",
         "Postgresql",
-        "Javascript"
+        "AWS"
       ]
     },
     {
@@ -184,15 +225,16 @@
     {
       "name": "Sport",
       "keywords": [
+        "Hiking",
         "Swimming",
-        "Cycling",
         "Sailing",
-        "Snowboarding"
+        "Snowboarding",
+        "Cycling"
       ]
     },
     {
       "name": "Coding",
-      "keywords": ["Codewars", "StackOverflow"]
+      "keywords": ["Codewars", "StackOverflow", "Side Projects"]
     },
     {
       "name": "Miscellaneous",
