@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Xavier Guihot</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <style>
   /********************************************
 * 	reset from
 * 	http://meyerweb.com/eric/tools/css/reset/
@@ -92,11 +91,11 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 article,
@@ -110,35 +109,34 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: none;
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 
 /****************
 *	COMMONS
@@ -146,202 +144,189 @@ table {
 
 body,
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 13px;
-    color: #40484f;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.46153846;
-    text-align: left;
-    -webkit-text-size-adjust: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
 }
 
 p {
-    display: block;
-    margin-bottom: 1.3em;
+  display: block;
 }
 
 a {
-    color: #0095ff;
-    text-decoration: none;
+  color: #0095ff;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #0c65a5;
-    text-decoration: underline;
-}
-
-ul {
-    margin-top: 1rem;
+  color: #0c65a5;
+  text-decoration: underline;
 }
 
 li {
-    list-style-type: square;
-    list-style-position: outside;
-    margin-left: 1.3em;
-}
-
-.highlights>li>p {
-    margin-bottom: 0.5em;
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h2 {
-    font-size: 1.67rem;
+  font-size: 1.67rem;
 }
 
 h3 {
-    font-size: 1.27rem;
+  font-size: 1.27rem;
 }
 
 em {
-    color: #757575;
+  color: #757575;
 }
 
 blockquote {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 strong {
-    font-weight: 700;
+  font-weight: 700;
 }
-
 
 /* main container */
 
 #resume {
-    padding: 1rem;
-    margin-top: 2rem;
+  padding: 1.5rem;
 }
-
 
 /* every section wrapper */
 
 .section {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 section .location {
-    margin-right: .5em;
-    color: #606d76;
-    font-weight: 700;
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
 }
 
 #contact {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #profiles .item {
-    padding: 0;
+  padding: 0;
 }
 
-#header>#profiles,
-#header>#contact,
+#header > #profiles,
+#header > #contact,
 #skills,
 #languages,
 #interests {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
 }
 
-#header>div {
-    line-height: 1.5;
+#header > div {
+  line-height: 1.5;
 }
 
-#header>div>div {
-    margin-right: 1.2em;
+#header > div > div {
+  margin-right: 1.2em;
 }
 
 #header h1.name {
-    font-size: 2.8rem;
-    font-weight: 100;
-    line-height: 100%;
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
 }
 
 #header h2.label {
-    color: #202931;
-    font-size: 1.47rem;
-    font-weight: 300;
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
 }
 
-#header .picture {
-    width: 11em;
-    float: right;
-    border-radius: 4px;
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
 }
 
 .main-summary {
-    background: #f1f8ff;
-    padding: 1.2em 1em;
-    margin-top: 1rem;
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
 }
 
 .main-summary p {
-    margin: .15em 0 0;
+  margin: 0;
 }
 
-h2.section-title {
-    display: inline-block;
-    background: #fff;
-    padding: 0 1em 0.3em 0;
-    color: #ff6d1f;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-    font-size: .9rem;
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
 }
 
-.section>header {
-    position: relative;
+.section > header {
+  position: relative;
 }
 
 .fa {
-    margin-right: 0.25em;
+  margin-right: 0.25em;
 }
 
-.section>header::after {
-    position: absolute;
-    left: 0;
-    top: .7em;
-    height: 1px;
-    background: #ccc;
-    content: "";
-    width: 100%;
-    z-index: -100;
-    display: block;
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
 }
 
-.section.main-summary>section {
-    margin: 0;
+.section.main-summary > section {
+  margin: 0;
 }
 
-.section>section>header {
-    font-size: 1.38rem;
-    position: relative;
-    margin-top: .7em;
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
 }
 
-.section>section>header:first-of-type {
-    margin: 0;
+.section > section > header:first-of-type {
+  margin: 0;
 }
 
-.section>section>header .space-left {
-    position: absolute;
-    left: -1.56rem;
-    top: 5px;
-    color: #aaa;
-    line-height: 1;
-    opacity: 0;
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
 }
 
 .position,
@@ -353,7 +338,7 @@ h2.section-title {
 .studyType,
 .title,
 .awarder {
-    display: inline;
+  display: inline;
 }
 
 .position,
@@ -362,213 +347,232 @@ h2.section-title {
 .title,
 .language,
 .name {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .company::before,
 .institution::before,
 .organization::before,
 .awarder::before {
-    content: "at "
+  content: "at ";
 }
 
 .company,
 .institution,
 .organization,
 .awarder {
-    color: #606d76;
-    font-weight: 400;
+  color: #606d76;
+  font-weight: 400;
 }
 
 .section header .date {
-    font-size: 1rem;
-    display: inline-table;
-    padding: .1em 0;
-    font-weight: 600;
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
 }
 
-ul.keywords,
-ul.courses {
-    margin-top: .5em;
+.keywords,
+.courses {
+  margin: 0.5em 0;
 }
 
-ul.keywords li,
-ul.courses li {
-    display: inline-block;
-    margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
-    line-height: 1;
-    text-transform: lowercase;
-    color: #3e6d8e;
-    background-color: #dfeaf1;
-    border: 0 solid #dfeaf1;
-    white-space: nowrap;
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
 }
 
-ul.keywords li:hover,
-ul.courses li:hover {
-    background: #dfeaf0;
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
 }
 
 .item {
-    padding: .5em 0;
+  overflow: hidden;
 }
 
 .gpa {
-    padding-bottom: .5em;
+  clear: both;
+  padding-bottom: 0.5em;
 }
 
 .fa.social {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
-
 
 /* Social Media Brand Colors */
 
 .google-plus {
-    color: #dd4b39;
+  color: #dd4b39;
 }
 
 .tumblr {
-    color: #32506d;
+  color: #32506d;
 }
 
 .foursquare {
-    color: #0072b1;
+  color: #0072b1;
 }
 
 .facebook {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .linkedin {
-    color: #007bb6;
+  color: #007bb6;
 }
 
 .pinterest {
-    color: #cb2027;
+  color: #cb2027;
 }
 
 .dribbble {
-    color: #ea4c89;
+  color: #ea4c89;
 }
 
 .instagram {
-    color: #517fa4;
+  color: #517fa4;
 }
 
 .twitter {
-    color: #00aced;
+  color: #00aced;
 }
 
 .soundcloud {
-    color: #ff3a00;
+  color: #ff3a00;
 }
 
 .wordpress {
-    color: #21759b;
+  color: #21759b;
 }
 
 .youtube {
-    color: #bb0000;
+  color: #bb0000;
 }
 
 .github {
-    color: #171515;
+  color: #171515;
 }
 
 .stack-overflow {
-    color: #828386;
-    position: relative;
+  color: #828386;
+  position: relative;
 }
 
 .flickr {
-    color: #ff0084;
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
 }
 
 .stack-overflow::after {
-    position: absolute;
-    left: 0;
-    content: '\f16c';
-    color: #f68a1f;
-    overflow: hidden;
-    height: 100%;
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
 }
 
 .telegram {
-    color: #2291c3;
+  color: #2291c3;
 }
 
 #languages .item,
 #skills .item,
 #interests .item {
-    width: 15em;
-    padding: 0 .5em .5em 0;
-    border-bottom: none;
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
 }
 
 #skills .item {
-    width: 18em;
+  width: 16em;
 }
 
 #skills .item .keywords {
-    width: 17em;
+  width: 15em;
 }
-
 
 /* Skill chart */
 
 .level {
-    margin-bottom: .5em;
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
 }
 
 .level .bar {
-    border: 1px solid #ddd;
-    display: block;
-    width: 10em;
-    height: 5px;
-    position: relative;
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
 }
 
 .level .bar::after {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    background: black;
-    height: 5px;
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
 }
 
 .level.beginner .bar::after {
-    background: #EB5F51;
-    width: 2.5em;
+  background: #eb5f51;
+  width: 2.5em;
 }
 
 .level.intermediate .bar::after {
-    background: #ffdf1f;
-    width: 5em;
+  background: #ffdf1f;
+  width: 5em;
 }
 
 .level.advanced .bar::after,
 .level.fluent .bar::after {
-    background: #5CB85C;
-    width: 7.5em;
+  background: #5cb85c;
+  width: 7.5em;
 }
 
 .level.master .bar::after,
 .level.native.speaker .bar::after {
-    background: #59C596;
-    width: 10em;
+  background: #59c596;
+  width: 10em;
 }
 
 #references .item {
-    padding-left: .5em;
-    border-left: 5px solid #ff6d1f;
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
 }
 
-.toggle-item {
-  visibility: hidden;
+.section > section > section {
+  margin-bottom: 1rem;
 }
 
 /******************
@@ -576,198 +580,187 @@ ul.courses li:hover {
 ******************/
 
 .clear::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .display {
-    display: block;
-    opacity: 1 !important;
+  display: block;
+  opacity: 1 !important;
 }
-
-.margin1 {
-    margin-bottom: .5rem;
-}
-
 
 /****************
 *		TABLET
 ****************/
 
 @media screen and (min-width: 602px) {
-    #resume {
-        width: 80%;
-        margin: 0 auto;
-    }
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
 }
-
 
 /****************
 *		LAPTOP
 ****************/
 
 @media screen and (min-width: 1025px) {
-    li {
-        margin-left: 1.5em;
-    }
-    #resume {
-        width: 820px;
-        margin: 2rem auto;      
-    }
-    .section>section>header .space-left {
-        opacity: 1;
-        cursor: pointer;
-    }
-    .section>section {
-        margin-left: 1.67rem;
-    }
-    .toggle-item {
-        transform: translate(-9999px);
-    }
-    .toggle-item+label {
-        display: block;
-        margin-top: -16px;
-    }
-    .toggle-item:checked+label:after {
-        content: '\f0d7';
-    }
-    .toggle-item+label:after {
-        float: left;
-        cursor: pointer;
-        margin-left: -20px;
-        color: #aaa;
-        font-size: 16px;
-        content: '\f0da';
-        font-family: Fontawesome;
-    }
-    .toggle-item~.item {
-        height: 0;
-        opacity: 0;
-    }
-    .toggle-item:checked~.item {
-        height: auto;
-        opacity: 1;
-        transition: all .5s linear;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "| ";
-    }
-    .header-left {
-        float: left;
-        width: 70%;
-        word-break: normal;
-    }
-    .section header .date {
-        float: right;
-        padding: .2em;
-    }
-    .display {
-        display: none;
-    }
-    .display:not(.none) {
-        display: block;
-    }
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
 }
 
 @media print {
-    #resume {
-        margin: 0;
-        padding: 0;
-        -ms-word-wrap: break-word;
-        word-wrap: break-word;
-        line-height: 1.3;
-        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
-    }
-    @page {
-        margin: 1cm 1.4cm;
-    }
-    .item-count {
-        display: none;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "at ";
-    }
-    .main-summary {
-        padding: 2rem 0;
-    }
-    .section {
-        margin: .8rem 0;
-        padding: 0;
-    }
-    .section header {
-        padding-bottom: .15rem;
-    }
-    .section .location {
-        padding-bottom: .15rem;
-    }
-    .stack-overflow::after {
-        content: "";
-    }
-    .fa.social {
-        color: #828386;
-    }
-    ul {
-        margin-top: .4em;
-    }
-    ul,
-    li {
-        padding: 0;
-    }
-    ul.keywords li,
-    ul.courses li {
-        margin: 0;
-        padding: 0;
-        font-size: .8rem;
-        text-transform: lowercase;
-    }
-    ul.keywords li::after,
-    ul.courses li::after {
-        padding: 0 0 0 .1rem;
-        content: " |";
-    }
-    ul.keywords::before,
-    ul.courses::before {
-        font-size: .8rem;
-        font-weight: 600;
-    }
-    ul.keywords::before {
-        content: "Skills acquired: ";
-    }
-    #skills .keywords::before {
-        content: '';
-    }
-    .section p {
-        margin: 0;
-        padding: 0;
-    }
-    ul.courses::before {
-        content: "Major courses: ";
-    }
-    ul.keywords li:last-of-type::after,
-    ul.courses li:last-of-type::after {
-        content: "";
-    }
-    .level em {
-        font-style: normal;
-        padding: .1em 0;
-    }
-    .level .bar {
-        display: none;
-    }
-    #profiles .item {
-        padding: 0;
-    }
-    .item.display {
-        display: block;
-        opacity: 1 !important;
-    }
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-location-dot:before {
+    padding-left: 0.1em;
+  }
 }
 
   </style>
@@ -781,71 +774,71 @@ ul.courses li:hover {
     			<h1 class="name">Xavier Guihot</h1>
     			<h2 class="label">Scala Data Engineer (Remote)</h2>
     		</div>
-    		
+    
     		<span class="location">
-    			<span class="city">Paris,</span> 
-    			<span class="countryCode">FR</span> 
+    			<span class="city">Paris,</span>
+    			<span class="countryCode">FR</span>
     		</span>
-    		
+    
     <div> Born in 1990</div>
     		<div id="contact">
     			<div class="website">
-    				<span class="fa fa-external-link"></span>
-    				<a target="_blank" target="_blank" href="https://xavierguihot.com">https://xavierguihot.com</a>
+    				<span class="fa-solid fa-up-right-from-square"></span>
+    				<a class="hide-href-print" target="_blank" target="_blank" href="https://xavierguihot.com">https://xavierguihot.com</a>
     			</div>
     			<div class="email">
-    				<span class="fa fa-envelope-o"></span>
-    				<a href="mailto:x.guihot@gmail.com">x.guihot@gmail.com</a>
+    				<span class="fa-regular fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:x.guihot@gmail.com">x.guihot@gmail.com</a>
     			</div>
     			<div class="phone">
-    				<span class="fa fa-mobile"></span>
-    				<a href="tel:+33 # ## ## ## ##">+33 # ## ## ## ##</a>
+    				<span class="fa-solid fa-mobile-screen-button"></span>
+    				<a class="hide-href-print" href="tel:+33 # ## ## ## ##">+33 # ## ## ## ##</a>
     			</div>
     		</div>
     
     		<div id="profiles">
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-github github social"></span>
+    					<span class="fa-brands fa-github github social"></span>
     					<span class="url">
     						<a target="_blank" href="https://github.com/xavierguihot">xavierguihot</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="fa-brands fa-linkedin linkedin social"></span>
     					<span class="url">
     						<a target="_blank" href="https://www.linkedin.com/in/xavierguihot/">xavierguihot</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-linktree linktree social"></span>
+    					<span class="fa-brands fa-linktree linktree social"></span>
     					<span class="url">
     						<a target="_blank" href="https://linktr.ee/xavierguihot">xavierguihot</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-stack-overflow stack-overflow social"></span>
+    					<span class="fa-brands fa-stack-overflow stack-overflow social"></span>
     					<span class="url">
     						<a target="_blank" href="https://stackoverflow.com/users/9297144/xavier-guihot?tab&#x3D;profile">Xavier Guihot</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     		</div>
     	</header>
     
-    	<section class="section main-summary">
-    		<section>
-    			<div><p>I love working on complex algorithmic oriented and data related projects specially when the tech stack includes Scala, Mongo, Akka, Spark and d3.js.</p></div>
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p><p>I love working on complex algorithmic oriented and data related projects specially when the tech stack includes Scala, Mongo, Akka, Spark and d3.js.</p></p></div>
     		</section>
     	</section>
     
-    <section class="section margin1">
+    <section class="section">
     	<header>
     		<h2 class='section-title'>Skills</h2>
     	</header>
@@ -904,245 +897,206 @@ ul.courses li:hover {
     
       <section id="work">
         <section class="work-item">
-    
-            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="work-item-0"></label>
     
-    			<header>
-    				<div class="position">Gap Year</div>
-    				<div class="company">Hiking/Travel</div>
-    				<div class="date">
-    				  <span class="startDate">March 2024</span> 
-    					<span class="endDate">- Current</span>
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">Around the world,</span>
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://vanityhikes.com">https://vanityhikes.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Hiking in Scotland, Madeira, the Lofotens, Iceland, the Pyrenees, Jordan and Nepal.</p></p>
-            </div>
-        	</div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Mar 2024</span>
+                <span class="endDate">- Dec 2024</span>
+              </div>
+              <div class="position">Gap Year</div>
+                <span class="company">
+                  <a target="_blank" href="https://vanityhikes.com">Hiking/Travel</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Around the world
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Hiking in Scotland, Madeira, the Lofotens, Iceland, the Pyrenees, Jordan and Nepal.</p></p></div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
             <label for="work-item-1"></label>
     
-    			<header>
-    				<div class="position">Lead Data Engineer (Remote)</div>
-    				<div class="company">BLOOM</div>
-    				<div class="date">
-    				  <span class="startDate">October 2021</span> 
-    					<span class="endDate">- March 2024</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">Paris,</span>
-    				<span class="countryCode">(FR)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://bloomsocialanalytics.com/en">https://bloomsocialanalytics.com/en</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.</p><p>Bloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.</p><p>My teck stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.</p><p>I'm in charge of the engineering on the data processing side, which consists in:</p></p>
-            </div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Oct 2021</span>
+                <span class="endDate">- Mar 2024</span>
+              </div>
+              <div class="position">Lead Data Engineer (Remote)</div>
+                <span class="company">
+                  <a target="_blank" href="https://bloomsocialanalytics.com/en">BLOOM</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Paris, FR
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.</p></p><p><p>Bloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.</p></p><p><p>My teck stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.</p></p><p><p>I'm in charge of the engineering on the data processing side, which consists in:</p></p></div>
             <ul class="highlights">
-                <li><p>Tokenizing and classifying social media content</p></li>
-                <li><p>Propagating classifications amongst social media referral chains</p></li>
-                <li><p>Producing all sorts of metrics</p></li>
-                <li><p>Creating graphs of terms and graphs of social media actors</p></li>
-                <li><p>Detecting inauthentic behaviours</p></li>
-                <li><p>Extracting locations from social media content</p></li>
-                <li><p>Building data visualisations</p></li>
+              <li><p><p>Tokenizing and classifying social media content</p></p></li>
+              <li><p><p>Propagating classifications amongst social media referral chains</p></p></li>
+              <li><p><p>Producing all sorts of metrics</p></p></li>
+              <li><p><p>Creating graphs of terms and graphs of social media actors</p></p></li>
+              <li><p><p>Detecting inauthentic behaviours</p></p></li>
+              <li><p><p>Extracting locations from social media content</p></p></li>
+              <li><p><p>Building data visualisations</p></p></li>
             </ul>
-        	</div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
             <label for="work-item-2"></label>
     
-    			<header>
-    				<div class="position">Scala Data Engineer</div>
-    				<div class="company">MINNA Technologies</div>
-    				<div class="date">
-    				  <span class="startDate">October 2020</span> 
-    					<span class="endDate">- August 2021</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">Göteborg,</span>
-    				<span class="countryCode">(SE)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://minnatechnologies.com">https://minnatechnologies.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).</p><p>My teck stack includes Scala, Akka, Mongo and d3.js</p><p>I'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:</p></p>
-            </div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Oct 2020</span>
+                <span class="endDate">- Aug 2021</span>
+              </div>
+              <div class="position">Scala Data Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://minnatechnologies.com">MINNA Technologies</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Göteborg, SE
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).</p></p><p><p>My teck stack includes Scala, Akka, Mongo and d3.js</p></p><p><p>I'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:</p></p></div>
             <ul class="highlights">
-                <li><p>Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).</p></li>
-                <li><p>Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data.</p></li>
+              <li><p><p>Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).</p></p></li>
+              <li><p><p>Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data.</p></p></li>
             </ul>
-        	</div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
             <label for="work-item-3"></label>
     
-    			<header>
-    				<div class="position">Scala Backend Developer</div>
-    				<div class="company">IMG ARENA</div>
-    				<div class="date">
-    				  <span class="startDate">February 2019</span> 
-    					<span class="endDate">- October 2020</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">London,</span>
-    				<span class="countryCode">(UK)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://imgarena.com">https://imgarena.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Live streaming of sport data feeds for media and sport betting companies.</p></p>
-            </div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Feb 2019</span>
+                <span class="endDate">- Oct 2020</span>
+              </div>
+              <div class="position">Scala Backend Developer</div>
+                <span class="company">
+                  <a target="_blank" href="https://imgarena.com">IMG ARENA</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            London, UK
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Live streaming of sport data feeds for media and sport betting companies.</p></p></div>
             <ul class="highlights">
-                <li><p>Low-latency and highly reliable sport data collection and broadcasting via Scala/Akka micro services.</p></li>
+              <li><p><p>Low-latency and highly reliable sport data collection and broadcasting via Scala/Akka micro services.</p></p></li>
             </ul>
-        	</div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-4" type="checkbox" class="toggle-item" />
             <label for="work-item-4"></label>
     
-    			<header>
-    				<div class="position">Data engineer</div>
-    				<div class="company">ADTHENA</div>
-    				<div class="date">
-    				  <span class="startDate">April 2018</span> 
-    					<span class="endDate">- January 2019</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">London,</span>
-    				<span class="countryCode">(UK)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://adthena.com">https://adthena.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.</p><p>My role consists in leveraging the massive amount of collected data and serving it to the client facing web application:</p></p>
-            </div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Apr 2018</span>
+                <span class="endDate">- Jan 2019</span>
+              </div>
+              <div class="position">Data engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://adthena.com">ADTHENA</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            London, UK
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.</p></p><p><p>My role consists in leveraging the massive amount of collected data and serving it to the client facing web application:</p></p></div>
             <ul class="highlights">
-                <li><p>Development of Scala/Java Spark pipelines</p></li>
-                <li><p>Java endpoints on top of SQL Amazon Redshift instances</p></li>
+              <li><p><p>Development of Scala/Java Spark pipelines</p></p></li>
+              <li><p><p>Java endpoints on top of SQL Amazon Redshift instances</p></p></li>
             </ul>
-        	</div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-5" type="checkbox" class="toggle-item" />
             <label for="work-item-5"></label>
     
-    			<header>
-    				<div class="position">Software developer - Data engineer</div>
-    				<div class="company">AMADEUS</div>
-    				<div class="date">
-    				  <span class="startDate">October 2014</span> 
-    					<span class="endDate">- April 2018</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">Sophia Antipolis,</span>
-    				<span class="countryCode">(FR)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://amadeus.com">https://amadeus.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.</p><p>Part of a data mining team in charge of flight search engine analytics:</p></p>
-            </div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Oct 2014</span>
+                <span class="endDate">- Apr 2018</span>
+              </div>
+              <div class="position">Software developer - Data engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://amadeus.com">AMADEUS</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Sophia Antipolis, FR
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.</p></p><p><p>Part of a data mining team in charge of flight search engine analytics:</p></p></div>
             <ul class="highlights">
-                <li><p>Scala Spark pipelines over billions of records on a 30TB-RAM Hadoop cluster</p></li>
-                <li><p>Travel Intelligence visualisation webapps</p></li>
-                <li><p>Customer choice modelling in order to improve and adapt displayed flight recommendations, resulting in verified conversion improvements</p></li>
-                <li><p>Transitioning workflows and pipelines for Amadeus' new Hadoop production cluster</p></li>
+              <li><p><p>Scala Spark pipelines over billions of records on a 30TB-RAM Hadoop cluster</p></p></li>
+              <li><p><p>Travel Intelligence visualisation webapps</p></p></li>
+              <li><p><p>Customer choice modelling in order to improve and adapt displayed flight recommendations, resulting in verified conversion improvements</p></p></li>
+              <li><p><p>Transitioning workflows and pipelines for Amadeus' new Hadoop production cluster</p></p></li>
             </ul>
-        	</div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-6" type="checkbox" class="toggle-item" />
             <label for="work-item-6"></label>
     
-    			<header>
-    				<div class="position">Final year internship</div>
-    				<div class="company">AIRBUS</div>
-    				<div class="date">
-    				  <span class="startDate">April 2014</span> 
-    					<span class="endDate">- October 2014</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">Toulouse Blagnac,</span>
-    				<span class="countryCode">(FR)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://airbus.com">https://airbus.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Part of a team from the simulation department, my project consists in developing a desktop app allowing users to edit the representation of process workflows.</p></p>
-            </div>
-        	</div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Apr 2014</span>
+                <span class="endDate">- Oct 2014</span>
+              </div>
+              <div class="position">Final year internship</div>
+                <span class="company">
+                  <a target="_blank" href="https://airbus.com">AIRBUS</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Toulouse Blagnac, FR
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Part of a team from the simulation department, my project consists in developing a desktop app allowing users to edit the representation of process workflows.</p></p></div>
+          </div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-7" type="checkbox" class="toggle-item" />
             <label for="work-item-7"></label>
     
-    			<header>
-    				<div class="position">Internship</div>
-    				<div class="company">Karlstad University</div>
-    				<div class="date">
-    				  <span class="startDate">July 2013</span> 
-    					<span class="endDate">- August 2013</span> 
-    				</div>
-    			</header>
-    			
-    			<span class="location">
-    				<span class="fa fa-map-marker"></span> 
-    				<span class="city">Karlstad,</span>
-    				<span class="countryCode">(SE)</span> 
-    			</span>
-        	<span class="website">
-        		<a target="_blank" href="https://kau.se/en">https://kau.se/en</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>TCP simulations with NS2 (network simulator) of large-scale experimental measurements on different cellular networks using different technologies (3G, 4G, TCP variants, ...).</p></p>
-            </div>
-        	</div>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jul 2013</span>
+                <span class="endDate">- Aug 2013</span>
+              </div>
+              <div class="position">Internship</div>
+                <span class="company">
+                  <a target="_blank" href="https://kau.se/en">Karlstad University</a>
+                </span>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Karlstad, SE
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>TCP simulations with NS2 (network simulator) of large-scale experimental measurements on different cellular networks using different technologies (3G, 4G, TCP variants, ...).</p></p></div>
+          </div>
         </section>
       </section>
     </section>
@@ -1152,23 +1106,21 @@ ul.courses li:hover {
       </header>
       <section id="projects">
         <section class="project-item">
-            <input id="project-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="project-item-0"></label>
     
-          <header>
+          <header class="clear">
             <div class="position">VanityHikes</div>
             <div class="date">
-              <span class="startDate">October 2022</span>
+              <span class="startDate">Oct 2022</span>
               <span class="endDate">- Current</span>
             </div>
           </header>
           <span class="website">
+            <span class="fa-solid fa-up-right-from-square"></span>
             <a target="_blank" href="https://vanityhikes.com">https://vanityhikes.com</a>
           </span>
           <div class="item">
-            <div class="summary">
-              <p><p>A dataviz side project aimed at displaying my hikes on open street maps.</p></p>
-            </div>
+              <div class="summary"><p><p>A dataviz side project aimed at displaying my hikes on open street maps.</p></p></div>
           </div>
         </section>
       </section>
@@ -1180,17 +1132,8 @@ ul.courses li:hover {
     
       <section id="education">
         <section class="education-item">
-            <input id="education-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="education-item-0"></label>
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                Engineering School
-              </div>
-              <div class="institution">
-                ISAE SUPAERO
-              </div>
-            </div>
+          <header class="clear">
             <div class="date">
               <span class="startDate">
               2011
@@ -1199,19 +1142,22 @@ ul.courses li:hover {
               - 2014
               </span>
             </div>
+            <div class="header-left">
+              <div class="studyType">
+                Engineering School
+              </div>
+              <div class="institution">
+                ISAE SUPAERO
+              </div>
+            </div>
           </header>
     
-          <br>
           <span class="location">
-            <span class="fa fa-map-marker"></span>
-            <span class="city">Toulouse, </span>
+            <span class="fa-solid fa-location-dot"></span>
+            <span class="city">Toulouse</span>
             <span class="countryCode">(FR)</span>
           </span>
-          <span class="website">
-            <a target="_blank" href="https://isae-supaero.fr/en">https://isae-supaero.fr/en</a>
-          </span>
     
-          <br>
           <ul class="courses">
             <li>Critical Computer Systems</li>
             <li>Intelligent Systems</li>
@@ -1222,23 +1168,12 @@ ul.courses li:hover {
           </ul>
     
           <div class="item">
-            <div class="summary">
-              <p><p>ISAE: Graduate Institute of Space and Aeronautical Engineering.<br>French equivalent of a Master's Degree in Engineering.</p></p>
-            </div>
+              <div class="summary"><p><p>ISAE: Graduate Institute of Space and Aeronautical Engineering.&lt;br&gt;French equivalent of a Master's Degree in Engineering.</p></p></div>
           </div>
         </section>
         <section class="education-item">
-            <input id="education-item-1" type="checkbox" class="toggle-item" />
             <label for="education-item-1"></label>
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                University
-              </div>
-              <div class="institution">
-                Paris Sud 11
-              </div>
-            </div>
+          <header class="clear">
             <div class="date">
               <span class="startDate">
               2009
@@ -1247,19 +1182,22 @@ ul.courses li:hover {
               - 2011
               </span>
             </div>
+            <div class="header-left">
+              <div class="studyType">
+                University
+              </div>
+              <div class="institution">
+                Paris Sud 11
+              </div>
+            </div>
           </header>
     
-          <br>
           <span class="location">
-            <span class="fa fa-map-marker"></span>
-            <span class="city">Orsay, </span>
+            <span class="fa-solid fa-location-dot"></span>
+            <span class="city">Orsay</span>
             <span class="countryCode">(FR)</span>
           </span>
-          <span class="website">
-            <a target="_blank" href="https://universite-paris-saclay.fr/en">https://universite-paris-saclay.fr/en</a>
-          </span>
     
-          <br>
           <ul class="courses">
             <li>Maths</li>
             <li>Physics</li>
@@ -1267,14 +1205,12 @@ ul.courses li:hover {
           </ul>
     
           <div class="item">
-            <div class="summary">
-              <p><p>Two-year university degree in mathematics and physics (DEUG).<br>Ranked 2 out of 307 in physics and 5 out of 307 in mathematics at the CCP DEUG entrance exam for engineering schools.</p></p>
-            </div>
+              <div class="summary"><p><p>Two-year university degree in mathematics and physics (DEUG).&lt;br&gt;Ranked 2 out of 307 in physics and 5 out of 307 in mathematics at the CCP DEUG entrance exam for engineering schools.</p></p></div>
           </div>
         </section>
       </section>
     </section>
-    <section class="section margin1">
+    <section class="section">
       <header>
         <h2 class='section-title'>Languages</h2>
       </header>
@@ -1303,7 +1239,7 @@ ul.courses li:hover {
         </div>
       </section>
     </section>
-    <section class="section margin1">
+    <section class="section">
       <header>
         <h2 class='section-title' class='section-title'>Interests</h2>
       </header>

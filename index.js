@@ -13,12 +13,12 @@ const { spaceToDash } = require(join(HELPERS, 'space-to-dash.js'));
 const { MY, Y, DMY } = dateHelpers;
 
 Handlebars.registerHelper('birthDate', birthDate);
-Handlebars.registerHelper('paragraphSplit', paragraphSplit);
-Handlebars.registerHelper('spaceToDash', spaceToDash);
-Handlebars.registerHelper('toLowerCase', toLowerCase);
 Handlebars.registerHelper('MY', MY);
 Handlebars.registerHelper('Y', Y);
 Handlebars.registerHelper('DMY', DMY);
+Handlebars.registerHelper('paragraphSplit', paragraphSplit);
+Handlebars.registerHelper('toLowerCase', toLowerCase);
+Handlebars.registerHelper('spaceToDash', spaceToDash);
 
 function render(resume) {
   const css = readFileSync(`${__dirname}/style.css`, 'utf-8');
@@ -41,4 +41,14 @@ function render(resume) {
   });
 }
 
-module.exports = { render };
+const marginValue = '0.8 cm';
+const pdfRenderOptions = {
+  margin: {
+    top: marginValue,
+    bottom: marginValue,
+    left: marginValue,
+    right: marginValue,
+  }
+}
+
+module.exports = { render, pdfRenderOptions };

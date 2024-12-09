@@ -7,16 +7,11 @@
     {{#each resume.projects}}
     <section class="project-item">
       {{#if summary}}
-        {{#if @first}}
-        <input id="project-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked" />
-        {{else}}
-        <input id="project-item-{{@index}}" type="checkbox" class="toggle-item" />
-        {{/if}}
         <label for="project-item-{{@index}}"></label>
       {{/if}}
 
       {{#if name}}
-      <header>
+      <header class="clear">
         {{#if name}}
         <div class="position">{{name}}</div>
         {{/if}}
@@ -34,7 +29,7 @@
       {{/if}}
       {{#location}}
       <span class="location">
-      <span class="fa fa-map-marker"></span>
+      <span class="fa-solid fa-location-dot"></span>
       {{#if city}}
       <span class="city">{{city}},</span>
       {{/if}}
@@ -50,6 +45,7 @@
       {{/location}}
       {{#if url}}
       <span class="website">
+        <span class="fa-solid fa-up-right-from-square"></span>
         <a target="_blank" href="{{url}}">{{url}}</a>
       </span>
       {{/if}}
@@ -62,9 +58,7 @@
       {{/if}}
       <div class="item">
         {{#if summary}}
-        <div class="summary">
-          <p>{{paragraphSplit summary}}</p>
-        </div>
+          <div class="summary">{{paragraphSplit summary}}</div>
         {{/if}}
         {{#if highlights.length}}
         <ul class="highlights">

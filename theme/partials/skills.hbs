@@ -1,5 +1,5 @@
 {{#if resume.skills.length}}
-<section class="section margin1">
+<section class="section">
 	<header>
 		<h2 class='section-title'>Skills</h2>
 	</header>
@@ -12,10 +12,14 @@
 			</h3>
 			{{/if}} {{#if level}}
 			<div class="level {{toLowerCase level}}">
+				{{#if levelDisplay}}
+				<em>{{levelDisplay}}</em>
+				{{else}}
 				<em>{{level}}</em>
+				{{/if}}
 				<div class="bar"></div>
 			</div>
-			{{/if}} 
+			{{/if}}
 			{{#if keywords.length}}
 			<ul class="keywords">
 				{{#each keywords}}

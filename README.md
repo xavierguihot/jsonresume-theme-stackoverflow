@@ -11,6 +11,17 @@ So my work here has just been to fork Francesco Esposito's resume template, to c
 
 # index.html update
 
+Not sure if this really works anymore (otherwise, just follow https://github.com/phoinixi/jsonresume-theme-stackoverflow?tab=readme-ov-file and use my resume.json):
+
+    npm install -g resume-cli # on a new laptop only
+    git clone https://github.com/xavierguihot/jsonresume-theme-stackoverflow.git
+    npm install
+    resume serve --theme .
+    cp public/index.html .
+    * Then commit and push
+
+Old way of doing (doesn't work anymore):
+
     # Create whatever virgin folder
     npm install git+https://git@github.com/xavierguihot/jsonresume-theme-stackoverflow
     cd node_modules
