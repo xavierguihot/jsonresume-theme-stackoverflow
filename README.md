@@ -14,6 +14,7 @@ So my work here has just been to fork Francesco Esposito's resume template, to c
 Not sure if this really works anymore (otherwise, just follow https://github.com/phoinixi/jsonresume-theme-stackoverflow?tab=readme-ov-file and use my resume.json):
 
     npm install -g resume-cli # on a new laptop only
+    cd jsonresume-theme-stackoverflow
     git clone https://github.com/xavierguihot/jsonresume-theme-stackoverflow.git
     npm install
     resume serve --theme .

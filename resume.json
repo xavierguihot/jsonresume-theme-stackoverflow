@@ -57,7 +57,7 @@
       "location": "Paris, FR",
       "startDate": "2021-10-15",
       "endDate": "2024-03-08",
-      "summary": "Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.\n\nBloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.\n\nMy teck stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.\n\nI'm in charge of the engineering on the data processing side, which consists in:",
+      "summary": "Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.\n\nBloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.\n\nMy tech stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.\n\nI'm in charge of the engineering on the data processing side, which consists in:",
       "highlights": [
         "Tokenizing and classifying social media content",
         "Propagating classifications amongst social media referral chains",
@@ -75,7 +75,7 @@
       "location": "Göteborg, SE",
       "startDate": "2020-10-01",
       "endDate": "2021-08-25",
-      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).\n\nMy teck stack includes Scala, Akka, Mongo and d3.js\n\nI'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:",
+      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).\n\nMy tech stack includes Scala, Akka, Mongo and d3.js\n\nI'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:",
       "highlights": [
         "Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).",
         "Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data."
