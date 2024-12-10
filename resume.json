@@ -45,10 +45,9 @@
       "company": "Hiking/Travel",
       "position": "Gap Year",
       "website": "https://vanityhikes.com",
-      "location": "Around the world",
       "startDate": "2024-03-09",
       "endDate": "2024-12-01",
-      "summary": "Hiking in Scotland, Madeira, the Lofotens, Iceland, the Pyrenees, Jordan and Nepal."
+      "summary": "Hiking 4500km in France, Scotland, Madeira, the Lofotens, Iceland, the Pyrenees, Jordan and Nepal."
     },
     {
       "company": "BLOOM",
@@ -156,7 +155,7 @@
         "Avionics",
         "Fluid Mechanics"
       ],
-      "summary": "ISAE: Graduate Institute of Space and Aeronautical Engineering.<br>French equivalent of a Master's Degree in Engineering."
+      "summary": "ISAE: Graduate Institute of Space and Aeronautical Engineering.\nFrench equivalent of a Master's Degree in Engineering."
     },
     {
       "institution": "Paris Sud 11",
@@ -170,7 +169,7 @@
         "Physics",
         "Computer science"
       ],
-      "summary": "Two-year university degree in mathematics and physics (DEUG).<br>Ranked 2 out of 307 in physics and 5 out of 307 in mathematics at the CCP DEUG entrance exam for engineering schools."
+      "summary": "Two-year university degree in mathematics and physics (DEUG).\nRanked 2 out of 307 in physics and 5 out of 307 in mathematics at the CCP DEUG entrance exam for engineering schools."
     }
   ],
   "projects": [
@@ -234,7 +233,7 @@
     },
     {
       "name": "Coding",
-      "keywords": ["Codewars", "StackOverflow", "Side Projects"]
+      "keywords": ["StackOverflow", "Codewars", "Side Projects"]
     },
     {
       "name": "Miscellaneous",
