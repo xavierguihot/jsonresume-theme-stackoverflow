@@ -9,7 +9,8 @@ const paragraphSplit = (text) => {
   }
 
   const lines = Array.isArray(text) ? text.join('').split(expr) : text.split(expr);
-  const output = lines.filter(line => line).reduce((a, b) => `${a}<p>${b}</p>`, '');
+  // const output = lines.filter(line => line).reduce((a, b) => `${a}<p>${b}</p>`, '');
+  const output = lines.filter(line => line).reduce((a, b) => `${a}<br>${b}`, '').replace('<br>', '');
   return new SafeString(output);
 };
 

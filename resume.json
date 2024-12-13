@@ -56,16 +56,7 @@
       "location": "Paris, FR",
       "startDate": "2021-10-15",
       "endDate": "2024-03-08",
-      "summary": "Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.\n\nBloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.\n\nMy tech stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.\n\nI'm in charge of the engineering on the data processing side, which consists in:",
-      "highlights": [
-        "Tokenizing and classifying social media content",
-        "Propagating classifications amongst social media referral chains",
-        "Producing all sorts of metrics",
-        "Creating graphs of terms and graphs of social media actors",
-        "Detecting inauthentic behaviours",
-        "Extracting locations from social media content",
-        "Building data visualisations"
-      ]
+      "summary": "Bloom analyses social media to generate strategic insights, providing businesses and government agencies with ways to analyse trends, opinions, risks and marketing strategies.\n\nBloom collects social media content, processes it to discover insights and provides visual dashboards for analysis of those insights.\n\nMy tech stack includes Scala, Spark, AWS EMR, Mongo, Airflow and d3.js.\n\nI'm in charge of the engineering on the data processing side, which consists in:\n\n• Tokenizing and classifying social media content\n• Propagating classifications amongst social media referral chains\n• Producing all sorts of metrics\n• Creating graphs of terms and graphs of social media actors\n• Detecting inauthentic behaviours\n• Extracting locations from social media content\n• Building data visualisations\n\nA consequent initial part of the role consisted in scaling up the system by transitioning the existing tech stack from python/sql to scala/spark/emr, which resulted in:\n\n• Being able to process projects 10 times bigger\n• Caping a project's processing duration to 2 hours independently from the data volume (vs up to 2 days beforehand)\n• Making the system reliable enough (in the end, the team was able to go on vacation for 2 weeks without the system needing any intervention)"
     },
     {
       "company": "MINNA Technologies",
@@ -74,11 +65,7 @@
       "location": "Göteborg, SE",
       "startDate": "2020-10-01",
       "endDate": "2021-08-25",
-      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).\n\nMy tech stack includes Scala, Akka, Mongo and d3.js\n\nI'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:",
-      "highlights": [
-        "Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).",
-        "Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data."
-      ]
+      "summary": "Minna provides bank customers with subscription management solutions (subscription overview, easy cancellation, service provider switch, ...).\n\nMy tech stack includes Scala, Akka, Mongo and d3.js\n\nI'm in charge of the subscription detection engine (the algorithm that discovers subscriptions out of users' transactions). This mainly consists in:\n\n• Upgrading and rethinking the algorithm (resulting in an increase of the detection accuracy from 40% to 95%).\n• Creating the tools necessary to build an annotated/labelled dataset, to measure the accuracy, tune the algorithm, validate changes and visualise the data."
     },
     {
       "company": "IMG ARENA",
@@ -87,10 +74,7 @@
       "location": "London, UK",
       "startDate": "2019-02-01",
       "endDate": "2020-10-01",
-      "summary": "Live streaming of sport data feeds for media and sport betting companies.",
-      "highlights": [
-        "Low-latency and highly reliable sport data collection and broadcasting via Scala/Akka micro services."
-      ]
+      "summary": "Live streaming of sport data feeds for media and sport betting companies.\n\nLow-latency and highly reliable sport data collection and broadcasting via Scala/Akka micro services.\n\nMy tech stack includes Scala, Akka Streams, AWS, Postgres and RabbitMQ"
     },
     {
       "company": "ADTHENA",
@@ -99,11 +83,7 @@
       "location": "London, UK",
       "startDate": "2018-04-09",
       "endDate": "2019-01-18",
-      "summary": "By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.\n\nMy role consists in leveraging the massive amount of collected data and serving it to the client facing web application:",
-      "highlights": [
-        "Development of Scala/Java Spark pipelines",
-        "Java endpoints on top of SQL Amazon Redshift instances"
-      ]
+      "summary": "By monitoring millions of search terms on a daily basis, Adthena helps digital marketers understand their paid and organic ranking in google search.\n\nMy role consists in leveraging the massive amount of collected data and serving it to the client facing web application:\n\n• Development of Scala/Java Spark pipelines\n• Java endpoints on top of SQL Amazon Redshift instances"
     },
     {
       "company": "AMADEUS",
@@ -112,13 +92,7 @@
       "location": "Sophia Antipolis, FR",
       "startDate": "2014-10-06",
       "endDate": "2018-04-06",
-      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.\n\nPart of a data mining team in charge of flight search engine analytics:",
-      "highlights": [
-        "Scala Spark pipelines over billions of records on a 30TB-RAM Hadoop cluster",
-        "Travel Intelligence visualisation webapps",
-        "Customer choice modelling in order to improve and adapt displayed flight recommendations, resulting in verified conversion improvements",
-        "Transitioning workflows and pipelines for Amadeus' new Hadoop production cluster"
-      ]
+      "summary": "Amadeus is a global distribution system providing search, pricing, booking, ticketing and other processing services in real-time to travel providers and travel agencies.\n\nMy tech stack includes Scala, Spark, ETLs, Hadoop, Python, d3.js, Mongo, Django\n\nPart of a data mining team in charge of flight search engine analytics:\n\n• Scala Spark pipelines over billions of records on a 30TB-RAM Hadoop cluster\n• Travel Intelligence visualisation webapps\n• Customer choice modelling in order to improve and adapt displayed flight recommendations, resulting in verified conversion improvements\n• Transitioning workflows and pipelines for Amadeus' new Hadoop production cluster"
     },
     {
       "company": "AIRBUS",
